@@ -1,0 +1,18 @@
+services:
+  # Web služba
+  - type: web
+    name: webshare-stremio-addon
+    env: node
+    buildCommand: npm ci --production
+    startCommand: npm start
+    healthCheckPath: /health
+    # Specifikace Node verze
+    envVars:
+      - key: NODE_VERSION
+        value: 16.x
+      - key: NODE_ENV
+        value: production
+      - key: PUBLIC_URL
+        value: https://webshare-stremio-rd-mod.onrender.com
+    # Automatické nasazení při změnách v repozitáři
+    autoDeploy: true

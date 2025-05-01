@@ -1,0 +1,22 @@
+{
+  "install": "npm install",
+  "start": "npm start",
+  "watch": {
+    "ignore": [
+      "\\.git",
+      "node_modules/**/node_modules"
+    ],
+    "install": {
+      "include": [
+        "^package\\.json$"
+      ]
+    },
+    "restart": {
+      "include": [
+        "^src/",
+        "^config/"
+      ]
+    },
+    "throttle": 1000
+  }
+}
