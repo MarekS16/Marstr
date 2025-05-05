@@ -1,7 +1,7 @@
 {
   "name": "Webshare Stremio Addon",
   "description": "Stremio addon pro streamování z Webshare.cz s podporou Real-Debrid",
-  "repository": "https://github.com/vas-username/webshare-stremio-rd-mod",
+  "repository": "https://github.com/MarekS16/Marstr.git",
   "logo": "https://cdn.jsdelivr.net/gh/Stremio/stremio-addon-sdk/docs/protocol/images/stremio.png",
   "keywords": ["stremio", "addon", "webshare", "real-debrid"],
   "env": {
